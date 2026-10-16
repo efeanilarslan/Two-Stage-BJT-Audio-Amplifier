@@ -153,14 +153,13 @@ Devreyi fiziksel olarak kuracak veya çoğaltacak geliştiricilerin dikkat etmes
 ## 📂 Proje Dizin Yapısı
 
 ```text
-ciftKatli-amfiDevresi/
+Two-Stage-BJT-Audio-Amplifier/
 ├── .gitignore                      # Proteus geçici ve yedek dosyalarını dışlama kuralları
+├── LICENSE                         # MIT Açık Kaynak Lisansı
 ├── README.md                       # Kapsamlı teknik dokümantasyon
-├── amfi(SON).pdsprj                # Proteus ISIS & ARES ana tasarım dosyası
-├── amfi.pdsprj                     # Alternatif / temel Proteus proje dosyası
+├── amfi(SON).pdsprj                # Proteus ISIS & ARES ana tasarım dosyası (Nihai Devre)
 ├── amfi(ilkkat).pdsprj             # Yalnızca 1. katın (CE) izole Proteus modeli
-├── amfi(SON).DO                    # ARES otomatik çizim/router komut dosyası
-├── amfi(SON).EDF                   # ARES Specctra / Electra netlist dosyası
+├── amfi.pdsprj                     # Temel Proteus proje dosyası
 └── docs/
     ├── oscilloscope_report.pdf     # Proteus DSO osiloskop vektör çıktısı
     ├── pcb_mask_panelized.pdf      # Asit baskıya hazır 4x4 panelize PCB kalıbı
